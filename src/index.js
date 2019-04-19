@@ -13,6 +13,10 @@ function component() {
     myIcon.src = Iconjpg;
     element.appendChild(myIcon);
 
+    let span = document.createElement('span');
+    span.innerText="hello to me !";
+    span.style="background:#abc;"
+    element.appendChild(span)
     return element;
   }
   
